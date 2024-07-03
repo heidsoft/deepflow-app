@@ -11,6 +11,7 @@ from models.models import FlowLogL7Tracing, TracingCompletionByExternalAppSpans
 from config import config
 import logging
 from logging.handlers import RotatingFileHandler
+from log import logger
 
 
 server = Sanic(__name__)
@@ -26,6 +27,7 @@ file_handler.setFormatter(formatter)
 
 # 获取当前模块的日志记录器
 log = logging.getLogger(__name__)
+log2 = logging.getLogger(__name__)
 log.addHandler(file_handler)  # 将文件处理器添加到日志记录器中
 
 
@@ -37,9 +39,11 @@ application_app = Blueprint(str(__name__).replace(".", "_"))
 @app_exception
 async def application_log_l7_tracing(request):
     log.debug("application_log_l7_tracing 111111111111")
+    log2.debug("llll application_log_l7_tracing 111111111111")
     args = FlowLogL7Tracing(request.json)
     args.validate()
     log.info("application_log_l7_tracing 22222222222")
+    log2.debug("kkkk application_log_l7_tracing 111111111111")
 
     status, response, failed_regions = await L7FlowTracing(
         args, request.headers).query()
@@ -72,6 +76,7 @@ async def l7_flow_app_tracing(request):
 @app_exception
 async def hello(request):
     log.debug("hello world")
+    log2.debug("222 hello world")
     return Response(json_response({"hello":"world"}),
                     content_type='application/json; charset=utf-8',
                     status=200)

@@ -678,3 +678,41 @@ Traceback (most recent call last):
 2024-07-04 00:12:21,077 - server - DEBUG - Request started: POST http://localhost:20418/v1/stats/querier/L7FlowTracing
 2024-07-04 00:12:21,077 - server - DEBUG - application_log_l7_tracing 111111111111
 2024-07-04 00:12:21,078 - server - DEBUG - Request finished with status 400
+2024-07-04 00:16:29,952 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-04 00:16:29,952 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[46872][0m
+2024-07-04 00:16:30,161 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-04 00:16:30,278 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: إلى اللقاء
+2024-07-04 00:16:32,956 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-04 00:16:32,980 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-04 00:16:34,013 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-04 00:16:34,015 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-04 00:16:38,161 - server - DEBUG - Request started: POST http://localhost:20418/v1/stats/querier/L7FlowTracing
+2024-07-04 00:16:38,161 - server - DEBUG - application_log_l7_tracing 111111111111
+2024-07-04 00:16:38,162 - server - DEBUG - llll application_log_l7_tracing 111111111111
+2024-07-04 00:16:38,163 - server - DEBUG - Request finished with status 400
+2024-07-04 00:16:39,080 - server - DEBUG - Request started: POST http://localhost:20418/v1/stats/querier/L7FlowTracing
+2024-07-04 00:16:39,081 - server - DEBUG - application_log_l7_tracing 111111111111
+2024-07-04 00:16:39,081 - server - DEBUG - llll application_log_l7_tracing 111111111111
+2024-07-04 00:16:39,082 - server - DEBUG - Request finished with status 400
+2024-07-04 00:16:45,985 - server - DEBUG - Request started: GET http://localhost:20418/v1/stats/hello
+2024-07-04 00:16:46,003 - server - DEBUG - hello world
+2024-07-04 00:16:46,004 - server - DEBUG - 222 hello world
+2024-07-04 00:16:46,004 - server - DEBUG - Request finished with status 200
+2024-07-04 00:16:46,789 - server - DEBUG - Request started: GET http://localhost:20418/v1/stats/hello
+2024-07-04 00:16:46,789 - server - DEBUG - hello world
+2024-07-04 00:16:46,790 - server - DEBUG - 222 hello world
+2024-07-04 00:16:46,790 - server - DEBUG - Request finished with status 200
