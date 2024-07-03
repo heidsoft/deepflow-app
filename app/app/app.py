@@ -32,14 +32,17 @@ async def before_server_stop(app, loop):
 
 
 def main():
+    print("pppppppppp")
+    print(config.log_level)
+    print(config.log_file)
     logger_manager = logger.LoggerManager('deepflow-app',
-                                          config.log_level,
-                                          log_stream=sys.stdout)
+                                          log_level=config.log_level,
+                                          log_file=config.log_file)
     logger_manager.init_logger()
 
     signal.signal(signal.SIGTERM, signal_handler)
     signal.signal(signal.SIGHUP, signal_handler)
-
+    print("1111111111111")
     log.info('Launching Deepflow-app ...')
     try:
         sock = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
@@ -48,7 +51,7 @@ def main():
     sock.bind(('', config.listen_port))
     server.server.run(workers=config.worker_numbers,
                       sock=sock,
-                      protocol=sanic_logger.DFHttpProtocol)
+                      debug=True)
 
 
 if __name__ == '__main__':

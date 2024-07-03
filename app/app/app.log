@@ -1,0 +1,680 @@
+2024-07-03 23:35:38,115 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:35:38,140 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:35:39,182 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:35:39,185 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:37:27,239 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:37:27,255 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44148][0m
+2024-07-03 23:37:27,462 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:37:27,582 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Goodbye
+2024-07-03 23:37:32,096 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:37:32,096 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:37:34,720 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:37:34,720 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:37:58,234 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:37:58,234 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:37:58,258 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:37:58,258 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:37:59,307 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:37:59,307 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:37:59,310 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:37:59,310 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:38:00,354 T140704566022080-MainThread [34mDEBUG[0m multiplexer.ack.31: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44417][0m
+2024-07-03 23:38:00,362 T140704566022080-MainThread INFO runners._run_server_forever.182: Starting worker [44417]
+2024-07-03 23:38:10,336 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:38:11,115 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:38:11,760 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:38:12,260 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:41:10,347 T140704566022080-MainThread [34mDEBUG[0m http_protocol.check_timeouts.217: KeepAlive Timeout. Closing connection.
+2024-07-03 23:43:20,484 T140704566022080-MainThread INFO runners._run_server_forever.185: Stopping worker [44417]
+2024-07-03 23:43:20,484 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:43:20,503 T140704566022080-MainThread INFO runners._run_server_forever.195: Worker complete [44417]
+2024-07-03 23:43:20,484 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:43:20,506 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44417][0m
+2024-07-03 23:43:20,506 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44417][0m
+2024-07-03 23:43:20,629 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:43:20,629 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:43:20,749 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Selamat tinggal
+2024-07-03 23:43:20,749 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Selamat tinggal
+2024-07-03 23:43:25,026 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:43:25,026 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:43:25,055 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:43:25,055 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:43:26,097 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:43:26,097 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:43:26,100 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:43:26,100 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:43:27,170 T140704566022080-MainThread [34mDEBUG[0m multiplexer.ack.31: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44622][0m
+2024-07-03 23:43:27,179 T140704566022080-MainThread INFO runners._run_server_forever.182: Starting worker [44622]
+2024-07-03 23:43:48,872 T140704566022080-MainThread INFO runners._run_server_forever.185: Stopping worker [44622]
+2024-07-03 23:43:48,871 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:43:48,871 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:43:48,887 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44622][0m
+2024-07-03 23:43:48,888 T140704566022080-MainThread INFO runners._run_server_forever.195: Worker complete [44622]
+2024-07-03 23:43:48,887 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44622][0m
+2024-07-03 23:43:49,008 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:43:49,008 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:43:49,122 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Goodbye
+2024-07-03 23:43:49,122 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Goodbye
+2024-07-03 23:44:42,645 - application.application - DEBUG - This is a debug message
+2024-07-03 23:44:42,646 - application.application - INFO - This is an info message
+2024-07-03 23:44:42,646 - application.application - WARNING - This is a warning message
+2024-07-03 23:44:42,646 - application.application - ERROR - This is an error message
+2024-07-03 23:44:42,646 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:44:42,652 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:44:42,652 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:44:42,676 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:44:42,676 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:44:43,683 - application.application - DEBUG - This is a debug message
+2024-07-03 23:44:43,683 - application.application - INFO - This is an info message
+2024-07-03 23:44:43,683 - application.application - WARNING - This is a warning message
+2024-07-03 23:44:43,683 - application.application - ERROR - This is an error message
+2024-07-03 23:44:43,684 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:44:43,702 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:44:43,702 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:44:43,713 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:44:43,713 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:44:44,748 - application.application - DEBUG - This is a debug message
+2024-07-03 23:44:44,749 - application.application - INFO - This is an info message
+2024-07-03 23:44:44,749 - application.application - WARNING - This is a warning message
+2024-07-03 23:44:44,749 - application.application - ERROR - This is an error message
+2024-07-03 23:44:44,749 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:44:44,770 T140704566022080-MainThread [34mDEBUG[0m multiplexer.ack.31: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44724][0m
+2024-07-03 23:44:44,777 T140704566022080-MainThread INFO runners._run_server_forever.182: Starting worker [44724]
+2024-07-03 23:44:47,597 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:44:49,307 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:45:43,445 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:45:43,845 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:45:45,408 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:45:46,046 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:47:06,827 T140704566022080-MainThread INFO runners._run_server_forever.185: Stopping worker [44724]
+2024-07-03 23:47:06,827 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:47:06,827 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:47:06,844 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44724][0m
+2024-07-03 23:47:06,844 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[44724][0m
+2024-07-03 23:47:06,847 T140704566022080-MainThread [31mERROR[0m serve.worker_serve.143: Event loop stopped before Future completed.
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/worker/serve.py", line [36m[1m121[0m, in [34m[1mworker_serve[0m
+[33m    return _serve_http_1([0m
+[33m           ^^^^^^^^^^^^^^[0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m304[0m, in [34m[1m_serve_http_1[0m
+[33m    _run_server_forever([0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m190[0m, in [34m[1m_run_server_forever[0m
+[33m    cleanup()[0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m286[0m, in [34m[1m_cleanup[0m
+[33m    loop.run_until_complete(asyncio.sleep(0.1))[0m
+  File "uvloop/loop.pyx", line [36m[1m1515[0m, in [34m[1muvloop.loop.Loop.run_until_complete[0m
+[38;2;255;13;104m[1mRuntimeError[0m: [1mEvent loop stopped before Future completed.[0m
+2024-07-03 23:47:07,053 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:47:07,053 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:47:07,166 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Dag
+2024-07-03 23:47:07,166 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Dag
+2024-07-03 23:47:10,352 - application.application - DEBUG - This is a debug message
+2024-07-03 23:47:10,353 - application.application - INFO - This is an info message
+2024-07-03 23:47:10,353 - application.application - WARNING - This is a warning message
+2024-07-03 23:47:10,353 - application.application - ERROR - This is an error message
+2024-07-03 23:47:10,353 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:47:10,359 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:10,359 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:15,149 - application.application - DEBUG - This is a debug message
+2024-07-03 23:47:15,149 - application.application - INFO - This is an info message
+2024-07-03 23:47:15,149 - application.application - WARNING - This is a warning message
+2024-07-03 23:47:15,149 - application.application - ERROR - This is an error message
+2024-07-03 23:47:15,150 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:47:15,155 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:15,155 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:20,931 - application.application - DEBUG - This is a debug message
+2024-07-03 23:47:20,931 - application.application - INFO - This is an info message
+2024-07-03 23:47:20,931 - application.application - WARNING - This is a warning message
+2024-07-03 23:47:20,931 - application.application - ERROR - This is an error message
+2024-07-03 23:47:20,932 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:47:20,937 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:20,937 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:25,336 - application.application - DEBUG - This is a debug message
+2024-07-03 23:47:25,336 - application.application - INFO - This is an info message
+2024-07-03 23:47:25,336 - application.application - WARNING - This is a warning message
+2024-07-03 23:47:25,336 - application.application - ERROR - This is an error message
+2024-07-03 23:47:25,337 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:47:25,342 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:25,342 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:27,815 - application.application - DEBUG - This is a debug message
+2024-07-03 23:47:27,815 - application.application - INFO - This is an info message
+2024-07-03 23:47:27,816 - application.application - WARNING - This is a warning message
+2024-07-03 23:47:27,816 - application.application - ERROR - This is an error message
+2024-07-03 23:47:27,816 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:47:27,822 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:27,822 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:44,517 - application.application - DEBUG - This is a debug message
+2024-07-03 23:47:44,517 - application.application - INFO - This is an info message
+2024-07-03 23:47:44,517 - application.application - WARNING - This is a warning message
+2024-07-03 23:47:44,517 - application.application - ERROR - This is an error message
+2024-07-03 23:47:44,517 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:47:44,523 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:44,523 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:47:44,549 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:47:44,549 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:47:45,561 - application.application - DEBUG - This is a debug message
+2024-07-03 23:47:45,561 - application.application - INFO - This is an info message
+2024-07-03 23:47:45,561 - application.application - WARNING - This is a warning message
+2024-07-03 23:47:45,561 - application.application - ERROR - This is an error message
+2024-07-03 23:47:45,561 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:47:45,579 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:47:45,579 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:47:45,590 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:47:45,590 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:47:46,590 - application.application - DEBUG - This is a debug message
+2024-07-03 23:47:46,590 - application.application - INFO - This is an info message
+2024-07-03 23:47:46,591 - application.application - WARNING - This is a warning message
+2024-07-03 23:47:46,591 - application.application - ERROR - This is an error message
+2024-07-03 23:47:46,591 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:47:46,615 T140704566022080-MainThread [34mDEBUG[0m multiplexer.ack.31: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45035][0m
+2024-07-03 23:47:46,624 T140704566022080-MainThread INFO runners._run_server_forever.182: Starting worker [45035]
+2024-07-03 23:47:48,269 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:47:49,281 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:47:50,067 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:47:50,732 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:48:32,100 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:49:26,840 T140704566022080-MainThread INFO runners._run_server_forever.185: Stopping worker [45035]
+2024-07-03 23:49:26,840 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:49:26,840 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:49:26,858 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45035][0m
+2024-07-03 23:49:26,858 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45035][0m
+2024-07-03 23:49:26,862 T140704566022080-MainThread [31mERROR[0m serve.worker_serve.143: Event loop stopped before Future completed.
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/worker/serve.py", line [36m[1m121[0m, in [34m[1mworker_serve[0m
+[33m    return _serve_http_1([0m
+[33m           ^^^^^^^^^^^^^^[0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m304[0m, in [34m[1m_serve_http_1[0m
+[33m    _run_server_forever([0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m190[0m, in [34m[1m_run_server_forever[0m
+[33m    cleanup()[0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m286[0m, in [34m[1m_cleanup[0m
+[33m    loop.run_until_complete(asyncio.sleep(0.1))[0m
+  File "uvloop/loop.pyx", line [36m[1m1515[0m, in [34m[1muvloop.loop.Loop.run_until_complete[0m
+[38;2;255;13;104m[1mRuntimeError[0m: [1mEvent loop stopped before Future completed.[0m
+2024-07-03 23:49:27,066 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:49:27,066 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:49:27,179 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: שלום
+2024-07-03 23:49:27,179 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: שלום
+2024-07-03 23:49:30,671 - application.application - DEBUG - This is a debug message
+2024-07-03 23:49:30,671 - application.application - INFO - This is an info message
+2024-07-03 23:49:30,671 - application.application - WARNING - This is a warning message
+2024-07-03 23:49:30,671 - application.application - ERROR - This is an error message
+2024-07-03 23:49:30,671 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:49:30,677 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:30,677 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:38,020 - application.application - DEBUG - This is a debug message
+2024-07-03 23:49:38,020 - application.application - INFO - This is an info message
+2024-07-03 23:49:38,020 - application.application - WARNING - This is a warning message
+2024-07-03 23:49:38,021 - application.application - ERROR - This is an error message
+2024-07-03 23:49:38,021 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:49:38,026 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:38,026 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:40,358 - application.application - DEBUG - This is a debug message
+2024-07-03 23:49:40,358 - application.application - INFO - This is an info message
+2024-07-03 23:49:40,358 - application.application - WARNING - This is a warning message
+2024-07-03 23:49:40,358 - application.application - ERROR - This is an error message
+2024-07-03 23:49:40,359 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:49:40,364 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:40,364 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:42,275 - application.application - DEBUG - This is a debug message
+2024-07-03 23:49:42,275 - application.application - INFO - This is an info message
+2024-07-03 23:49:42,275 - application.application - WARNING - This is a warning message
+2024-07-03 23:49:42,275 - application.application - ERROR - This is an error message
+2024-07-03 23:49:42,276 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:49:42,281 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:42,281 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:43,997 - application.application - DEBUG - This is a debug message
+2024-07-03 23:49:43,998 - application.application - INFO - This is an info message
+2024-07-03 23:49:43,998 - application.application - WARNING - This is a warning message
+2024-07-03 23:49:43,998 - application.application - ERROR - This is an error message
+2024-07-03 23:49:43,998 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:49:44,004 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:44,004 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:48,908 - application.application - DEBUG - This is a debug message
+2024-07-03 23:49:48,908 - application.application - INFO - This is an info message
+2024-07-03 23:49:48,908 - application.application - WARNING - This is a warning message
+2024-07-03 23:49:48,908 - application.application - ERROR - This is an error message
+2024-07-03 23:49:48,909 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:49:48,914 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:49:48,914 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:50:06,005 - application.application - DEBUG - This is a debug message
+2024-07-03 23:50:06,005 - application.application - INFO - This is an info message
+2024-07-03 23:50:06,005 - application.application - WARNING - This is a warning message
+2024-07-03 23:50:06,005 - application.application - ERROR - This is an error message
+2024-07-03 23:50:06,006 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:50:06,011 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:50:06,011 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:50:06,037 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:50:06,037 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:50:07,038 - application.application - DEBUG - This is a debug message
+2024-07-03 23:50:07,039 - application.application - INFO - This is an info message
+2024-07-03 23:50:07,039 - application.application - WARNING - This is a warning message
+2024-07-03 23:50:07,039 - application.application - ERROR - This is an error message
+2024-07-03 23:50:07,039 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:50:07,058 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:50:07,058 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:50:07,069 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:50:07,069 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:50:08,058 - application.application - DEBUG - This is a debug message
+2024-07-03 23:50:08,058 - application.application - INFO - This is an info message
+2024-07-03 23:50:08,058 - application.application - WARNING - This is a warning message
+2024-07-03 23:50:08,059 - application.application - ERROR - This is an error message
+2024-07-03 23:50:08,059 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:50:08,081 T140704566022080-MainThread [34mDEBUG[0m multiplexer.ack.31: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45485][0m
+2024-07-03 23:50:08,088 T140704566022080-MainThread INFO runners._run_server_forever.182: Starting worker [45485]
+2024-07-03 23:50:14,137 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:50:14,970 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:50:15,614 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:50:31,244 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:50:31,947 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:52:33,942 T140704566022080-MainThread INFO runners._run_server_forever.185: Stopping worker [45485]
+2024-07-03 23:52:33,942 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:52:33,942 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:52:33,966 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45485][0m
+2024-07-03 23:52:33,966 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45485][0m
+2024-07-03 23:52:33,970 T140704566022080-MainThread [31mERROR[0m serve.worker_serve.143: Event loop stopped before Future completed.
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/worker/serve.py", line [36m[1m121[0m, in [34m[1mworker_serve[0m
+[33m    return _serve_http_1([0m
+[33m           ^^^^^^^^^^^^^^[0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m304[0m, in [34m[1m_serve_http_1[0m
+[33m    _run_server_forever([0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m190[0m, in [34m[1m_run_server_forever[0m
+[33m    cleanup()[0m
+  File "/opt/miniconda3/lib/python3.12/site-packages/sanic/server/runners.py", line [36m[1m286[0m, in [34m[1m_cleanup[0m
+[33m    loop.run_until_complete(asyncio.sleep(0.1))[0m
+  File "uvloop/loop.pyx", line [36m[1m1515[0m, in [34m[1muvloop.loop.Loop.run_until_complete[0m
+[38;2;255;13;104m[1mRuntimeError[0m: [1mEvent loop stopped before Future completed.[0m
+2024-07-03 23:52:34,174 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:52:34,174 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:52:34,287 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Tot later
+2024-07-03 23:52:34,287 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Tot later
+2024-07-03 23:52:37,512 - application.application - DEBUG - This is a debug message
+2024-07-03 23:52:37,513 - application.application - INFO - This is an info message
+2024-07-03 23:52:37,513 - application.application - WARNING - This is a warning message
+2024-07-03 23:52:37,513 - application.application - ERROR - This is an error message
+2024-07-03 23:52:37,513 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:52:37,519 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:37,519 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:39,809 - application.application - DEBUG - This is a debug message
+2024-07-03 23:52:39,809 - application.application - INFO - This is an info message
+2024-07-03 23:52:39,810 - application.application - WARNING - This is a warning message
+2024-07-03 23:52:39,810 - application.application - ERROR - This is an error message
+2024-07-03 23:52:39,810 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:52:39,815 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:39,815 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:49,829 - application.application - DEBUG - This is a debug message
+2024-07-03 23:52:49,829 - application.application - INFO - This is an info message
+2024-07-03 23:52:49,829 - application.application - WARNING - This is a warning message
+2024-07-03 23:52:49,829 - application.application - ERROR - This is an error message
+2024-07-03 23:52:49,830 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:52:49,835 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:49,835 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:53,154 - application.application - DEBUG - This is a debug message
+2024-07-03 23:52:53,154 - application.application - INFO - This is an info message
+2024-07-03 23:52:53,154 - application.application - WARNING - This is a warning message
+2024-07-03 23:52:53,154 - application.application - ERROR - This is an error message
+2024-07-03 23:52:53,154 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:52:53,160 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:53,160 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:56,236 - application.application - DEBUG - This is a debug message
+2024-07-03 23:52:56,236 - application.application - INFO - This is an info message
+2024-07-03 23:52:56,236 - application.application - WARNING - This is a warning message
+2024-07-03 23:52:56,236 - application.application - ERROR - This is an error message
+2024-07-03 23:52:56,236 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:52:56,242 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:56,242 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:57,979 - application.application - DEBUG - This is a debug message
+2024-07-03 23:52:57,980 - application.application - INFO - This is an info message
+2024-07-03 23:52:57,980 - application.application - WARNING - This is a warning message
+2024-07-03 23:52:57,980 - application.application - ERROR - This is an error message
+2024-07-03 23:52:57,980 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:52:57,985 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:52:57,985 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:53:06,481 - application.application - DEBUG - This is a debug message
+2024-07-03 23:53:06,481 - application.application - INFO - This is an info message
+2024-07-03 23:53:06,481 - application.application - WARNING - This is a warning message
+2024-07-03 23:53:06,481 - application.application - ERROR - This is an error message
+2024-07-03 23:53:06,482 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:53:06,487 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:53:06,487 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:53:06,509 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:53:06,509 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:53:07,510 - application.application - DEBUG - This is a debug message
+2024-07-03 23:53:07,511 - application.application - INFO - This is an info message
+2024-07-03 23:53:07,511 - application.application - WARNING - This is a warning message
+2024-07-03 23:53:07,511 - application.application - ERROR - This is an error message
+2024-07-03 23:53:07,511 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:53:07,528 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:53:07,528 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:53:07,530 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:53:07,530 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:53:08,526 - application.application - DEBUG - This is a debug message
+2024-07-03 23:53:08,526 - application.application - INFO - This is an info message
+2024-07-03 23:53:08,526 - application.application - WARNING - This is a warning message
+2024-07-03 23:53:08,526 - application.application - ERROR - This is an error message
+2024-07-03 23:53:08,526 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:53:08,550 T140704566022080-MainThread [34mDEBUG[0m multiplexer.ack.31: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45928][0m
+2024-07-03 23:53:08,554 T140704566022080-MainThread INFO runners._run_server_forever.182: Starting worker [45928]
+2024-07-03 23:53:22,377 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:53:23,308 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:53:44,685 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:53:45,523 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-03 23:56:22,382 T140704566022080-MainThread [34mDEBUG[0m http_protocol.check_timeouts.217: KeepAlive Timeout. Closing connection.
+2024-07-03 23:57:44,737 T140704566022080-MainThread INFO runners._run_server_forever.185: Stopping worker [45928]
+2024-07-03 23:57:44,737 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:57:44,737 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-03 23:57:44,738 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45928][0m
+2024-07-03 23:57:44,738 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[45928][0m
+2024-07-03 23:57:44,742 T140704566022080-MainThread INFO runners._run_server_forever.195: Worker complete [45928]
+2024-07-03 23:57:44,945 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:57:44,945 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-03 23:57:45,061 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Take care
+2024-07-03 23:57:45,061 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Take care
+2024-07-03 23:57:59,889 - application.application - DEBUG - This is a debug message
+2024-07-03 23:57:59,889 - application.application - INFO - This is an info message
+2024-07-03 23:57:59,889 - application.application - WARNING - This is a warning message
+2024-07-03 23:57:59,890 - application.application - ERROR - This is an error message
+2024-07-03 23:57:59,890 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:57:59,896 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:57:59,896 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-03 23:57:59,920 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:57:59,920 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-03 23:58:00,933 - application.application - DEBUG - This is a debug message
+2024-07-03 23:58:00,933 - application.application - INFO - This is an info message
+2024-07-03 23:58:00,933 - application.application - WARNING - This is a warning message
+2024-07-03 23:58:00,933 - application.application - ERROR - This is an error message
+2024-07-03 23:58:00,934 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:58:00,951 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:58:00,951 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-03 23:58:00,953 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:58:00,953 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-03 23:58:01,980 - application.application - DEBUG - This is a debug message
+2024-07-03 23:58:01,980 - application.application - INFO - This is an info message
+2024-07-03 23:58:01,980 - application.application - WARNING - This is a warning message
+2024-07-03 23:58:01,981 - application.application - ERROR - This is an error message
+2024-07-03 23:58:01,981 - application.application - CRITICAL - This is a critical message
+2024-07-03 23:58:02,007 T140704566022080-MainThread [34mDEBUG[0m multiplexer.ack.31: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[46170][0m
+2024-07-03 23:58:02,012 T140704566022080-MainThread INFO runners._run_server_forever.182: Starting worker [46170]
+2024-07-03 23:58:07,087 T140704566022080-MainThread [38;2;255;13;104mACCESS[0m http1.log_response.487: 
+2024-07-04 00:00:07,104 T140704566022080-MainThread [34mDEBUG[0m http_protocol.check_timeouts.217: KeepAlive Timeout. Closing connection.
+2024-07-04 00:07:36,567 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-04 00:07:36,567 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-04 00:07:36,568 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[46170][0m
+2024-07-04 00:07:36,568 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[46170][0m
+2024-07-04 00:07:36,570 T140704566022080-MainThread INFO runners._run_server_forever.185: Stopping worker [46170]
+2024-07-04 00:07:36,573 T140704566022080-MainThread INFO runners._run_server_forever.195: Worker complete [46170]
+2024-07-04 00:07:36,777 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-04 00:07:36,777 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-04 00:07:36,889 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Até logo
+2024-07-04 00:07:36,889 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Até logo
+2024-07-04 00:07:40,461 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-04 00:07:40,485 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-04 00:07:41,508 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-04 00:07:41,510 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-04 00:07:48,042 - server - DEBUG - Request started: GET http://localhost:20418/v1/stats/hello
+2024-07-04 00:07:48,043 - server - DEBUG - Request finished with status 200
+2024-07-04 00:07:48,771 - server - DEBUG - Request started: GET http://localhost:20418/v1/stats/hello
+2024-07-04 00:07:48,772 - server - DEBUG - Request finished with status 200
+2024-07-04 00:07:49,346 - server - DEBUG - Request started: GET http://localhost:20418/v1/stats/hello
+2024-07-04 00:07:49,347 - server - DEBUG - Request finished with status 200
+2024-07-04 00:10:44,591 T140704566022080-MainThread INFO manager.shutdown_signal.385: Received signal SIGINT. Shutting down.
+2024-07-04 00:10:44,591 T140704566022080-MainThread [34mDEBUG[0m process.terminate.101: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[46568][0m
+2024-07-04 00:10:44,899 T140704566022080-MainThread INFO startup.serve.1159: Server Stopped
+2024-07-04 00:10:45,019 T140704566022080-MainThread [34mDEBUG[0m startup.serve.1193: Do svidaniya
+2024-07-04 00:11:12,186 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-04 00:11:14,675 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-04 00:11:25,621 T140704566022080-MainThread INFO app.main.46: Launching Deepflow-app ...
+2024-07-04 00:11:25,644 T140704566022080-MainThread INFO motd.display.148: 
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v24.6.0                          │
+  │                 Goin' Fast @ http://[::]:20418                 │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: server                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker         │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1              │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.12.2                       │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: macOS-14.5-x86_64-i386-64bit │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0       │
+  │ [48;2;255;13;104m                     [0m │                                        │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+2024-07-04 00:11:26,665 T140704566022080-MainThread [34mDEBUG[0m startup._get_context.949: Creating multiprocessing context using 'spawn'
+2024-07-04 00:11:26,667 T140704566022080-MainThread [34mDEBUG[0m process.start.63: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2024-07-04 00:11:33,180 - server - DEBUG - Request started: GET http://localhost:20418/v1/stats/hello
+2024-07-04 00:11:33,180 - server - DEBUG - hello world
+2024-07-04 00:11:33,181 - server - DEBUG - Request finished with status 200
+2024-07-04 00:11:34,086 - server - DEBUG - Request started: GET http://localhost:20418/v1/stats/hello
+2024-07-04 00:11:34,086 - server - DEBUG - hello world
+2024-07-04 00:11:34,087 - server - DEBUG - Request finished with status 200
+2024-07-04 00:12:20,139 - server - DEBUG - Request started: POST http://localhost:20418/v1/stats/querier/L7FlowTracing
+2024-07-04 00:12:20,157 - server - DEBUG - application_log_l7_tracing 111111111111
+2024-07-04 00:12:20,159 - server - DEBUG - Request finished with status 400
+2024-07-04 00:12:21,077 - server - DEBUG - Request started: POST http://localhost:20418/v1/stats/querier/L7FlowTracing
+2024-07-04 00:12:21,077 - server - DEBUG - application_log_l7_tracing 111111111111
+2024-07-04 00:12:21,078 - server - DEBUG - Request finished with status 400

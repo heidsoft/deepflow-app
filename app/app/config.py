@@ -1,7 +1,7 @@
 import yaml
 import sys
 
-CONFIG_FILE = "/etc/deepflow/app.yaml"
+CONFIG_FILE = "../app.yaml"
 
 
 class Config(object):
@@ -10,7 +10,7 @@ class Config(object):
 
     def parse_log(self, cfg):
         self.log_level = cfg.get('log-level', 'info')
-        self.log_file = cfg.get('log-file', '/etc/deepflow/app.log')
+        self.log_file = cfg.get('log-file', 'app.log')
         self.worker_numbers = cfg.get('worker_numbers', 10)
 
     def parse_spec(self, cfg):
@@ -55,4 +55,6 @@ class Config(object):
 
 
 config = Config()
+print(config)
 config.is_valid(CONFIG_FILE)
+print("bbbbbb")

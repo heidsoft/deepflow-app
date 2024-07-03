@@ -52,9 +52,9 @@ class LoggerManager(object):
 
     def init_logger(self):
         self.LOGGER.setLevel(self.log_level)
-        self.LOGGER.addHandler(self.stream_handler)
-        #self.LOGGER.addHandler(self.file_handler)
-        #self.LOGGER.addHandler(self.syslog_handler)
+        # self.LOGGER.addHandler(self.stream_handler)
+        self.LOGGER.addHandler(self.file_handler)
+        # self.LOGGER.addHandler(self.syslog_handler)
 
 
 def getLogger(name='root'):

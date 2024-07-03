@@ -1,6 +1,6 @@
 app:
   # logfile path
-  log-file: /var/log/deepflow/app.log
+  log-file: app.log
   # loglevel: "debug/info/warn/error"
   log-level: info
   # app http listenport
@@ -8,7 +8,7 @@ app:
   # http request/response timeout
   http_request_timeout: 600
   http_response_timeout: 600
-  worker_numbers: 10
+  worker_numbers: 1
 
   querier:
     host: deepflow-server
